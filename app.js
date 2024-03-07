@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json());
 
 app.get('/',(req, res) => {
-    res.send(`Jai Sia Ram Jai Bajrangbali`)
+    res.send(`Weather App`)
 })
 
 app.use('/api/v1/weather',weatherRouter)
